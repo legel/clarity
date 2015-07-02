@@ -1,10 +1,10 @@
 # Clarity
 Clarity is a library for quickly and intuitively exploring complex data.  Driven by state-of-the-art machine learning and statistics, Clarity provides simple commands for the following:
-  - **Extracting key features from input data** - *e.g.* natural language processing to identify important words in a set of documents
-  - **Discovering models of key features** - *e.g.* learning a low-dimensional representation of document characteristics
-  - **Visualizing knowledge inside models** - *e.g.* 3D exploration of knowledge in documents
+  - **Extracting key features from input data** - *e.g.* natural language processing of documents to identify key words
+  - **Discovering models of key features** - *e.g.* learning a low-dimensional representation of each document
+  - **Visualizing knowledge inside models** - *e.g.* exploring knowledge graph connectivity in 3D
 
-Clarity is built on a philosophy of minimalism, including internal application of heuristics to help speed up the process of scientific discovery for everyone.  This library has been developed with special interest in supporting intelligence visualization in virtual and augmented reality, including a forthcoming application to a 3D Wikipedia.
+Clarity is built on a philosophy of minimalism, to help speed up the process of scientific discovery for everyone.  This library is especially well-suited for visualizing artificial intelligence in virtual and augmented reality.
 
 ### Installation
 ```sh
