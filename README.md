@@ -1,5 +1,5 @@
 # Clarity
-Clarity is a library for quickly and intuitively exploring complex data.  Driven by state-of-the-art machine learning and statistics, Clarity provides simple commands for the following:
+Clarity is a library for quickly and intuitively exploring complex data.  Driven by machine learning, it provides simple commands for the following:
   - **Extracting key features from input data** - *e.g.* natural language processing of documents to identify key words
   - **Discovering models of key features** - *e.g.* learning a low-dimensional representation of each document
   - **Visualizing knowledge inside models** - *e.g.* exploring knowledge graph connectivity in 3D
