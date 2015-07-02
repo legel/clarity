@@ -3,7 +3,7 @@ import clarity
 observations = [
   'A document about epistemology...', 
   'A document about particle physics...', 
-  'A document about astrophysics...', 
+  'A document about quantum physics...', 
   'A document about cats...', 
   'A document about dogs...'
   ]
