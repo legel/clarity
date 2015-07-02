@@ -1,8 +1,8 @@
 # Clarity
 Clarity is a library for quickly and intuitively exploring complex data.  Driven by machine learning, it provides simple commands for the following:
-  - **Extracting key features from input data** - *e.g.* extracting key words from documents
-  - **Discovering models of key features** - *e.g.* learning deep representations from key words
-  - **Visualizing knowledge inside models** - *e.g.* exploring connectivity of topics in 3D
+  - **Extracting features from data** - *e.g.* extracting key words from documents
+  - **Discovering models of features** - *e.g.* learning deep representations from [word2vec](http://code.google.com/p/word2vec/)
+  - **Visualizing knowledge in models** - *e.g.* exploring connectivity across documents in 3D
 
 Clarity is built on a philosophy of minimalism, to help speed up the process of scientific discovery for everyone.  This library is especially well-suited for visualizing artificial intelligence in virtual and augmented reality.
 
