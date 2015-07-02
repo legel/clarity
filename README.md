@@ -33,7 +33,7 @@ Running this example produces the following output:
 $ python extract_features.py
 ['epistemology', 'particle physics', 'quantum physics', 'cats', 'dogs']
 ```
-Intuitively, we can see that Clarity got rid of all the extra words (*'A document about'* and *'...'*) in the data set it was originally provided.
+Intuitively, we can see that Clarity got rid of all the extra words (```A document about``` and ```...```) in the data set it was originally provided.
 
 Let's see how.  At the top we make a list of ```observations```, which may be of any data type, and pass it to ```clarity.sense()```.  From this, Clarity will construct an object called ```truth```.  With ```truth``` we can ```focus()``` to automatically extract features in each observation that may best explain it.
 
