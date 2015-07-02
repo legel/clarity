@@ -4,7 +4,6 @@ Clarity is a library for quickly and intuitively exploring complex data.  Driven
   - **Discovering models of features** - *e.g.* learning deep representations from [word2vec](http://code.google.com/p/word2vec/)
   - **Visualizing knowledge in models** - *e.g.* exploring connectivity across documents in 3D
 
-Clarity is built on a philosophy of minimalism, to help speed up the process of scientific discovery for everyone.  This library is especially well-suited for visualizing artificial intelligence in virtual and augmented reality.
 
 ### Installation
 ```sh
