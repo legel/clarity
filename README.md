@@ -1,10 +1,10 @@
 # Clarity
 Clarity is a library for quickly and intuitively exploring complex data.  Driven by [machine learning](https://en.wikipedia.org/wiki/Machine_learning) it provides simple commands for the following:
   - **Extracting features from data** - *e.g.* identifying key words in documents
-  - **Discovering models of features** - *e.g.* learning deep representations from [word2vec](http://code.google.com/p/word2vec/)
+  - **Discovering models of features** - *e.g.* learning deep representations with [word2vec](http://code.google.com/p/word2vec/)
   - **Visualizing knowledge in models** - *e.g.* exploring connectivity across documents in 3D
 
-Clarity can help speed up the process of scientific discovery, and support visualization of intelligence harvested from data, especially for virtual and augmented reality.
+Clarity can help speed up the process of scientific discovery, and support visualization of intelligence harvested from data, including for virtual and augmented reality.
 
 ### Installation
 ```sh
@@ -35,9 +35,7 @@ $ python extract_features.py
 ```
 Intuitively, we can see that Clarity got rid of useless information (```A document about``` and ```...```) in the data it was provided.
 
-Let's see how.  At the top of ```extract_features.py``` we make a list of ```observations```, which may be of any data type. We pass it to ```clarity.sense()``` to construct an object called ```truth```, from which we can ```focus()```.  This function will attempt to automatically identify and focus on the features that best distinguish each observation.
-
-Readers satisfied so far with this idea of feature extraction may wish to skip to [*Discovering Models*](#discovering-models), to see how these features are applied.  They can learn more about [*Non-Parametric Heuristics*](#heuristics) and [*Parameterization*](#parameterization) for feature extraction in the following sections.
+Let's see how.  At the top of ```extract_features.py``` we make a list of ```observations```, pass it to ```clarity.sense()``` to construct an object called ```truth```, through which we ```focus()```.  This function attempts to automatically identify the features that best distinguish each observation.
 
 Under the hood, when Clarity runs ```focus()```, it constructs a sparse normalized *N* x *F* matrix, where *N* is number of observations and *F* is number of features.  Such a matrix is often useful for machine learning in general, and one can extract it by calling ```truth.matrix```.
 
