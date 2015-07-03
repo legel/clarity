@@ -2,7 +2,7 @@
 Clarity is a library for quickly and intuitively exploring complex data.  Driven by [machine learning](https://en.wikipedia.org/wiki/Machine_learning) it provides simple commands for the following:
   - **Extracting features from data** - *e.g.* identifying key words in documents with [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
   - **Discovering models of features** - *e.g.* learning deep representations with [word2vec](http://code.google.com/p/word2vec/)
-  - **Visualizing knowledge in models** - *e.g.* 3D embedding of high-dimensional knowledge with [t-SNE](http://lvdmaaten.github.io/tsne/)
+  - **Visualizing models** - *e.g.* 3D embedding of high dimensional knowledge with [t-SNE](http://lvdmaaten.github.io/tsne/)
 
 Clarity can help speed up the process of scientific discovery, and support visualization of intelligence harvested from data, including for virtual and augmented reality.
 
