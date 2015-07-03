@@ -45,7 +45,7 @@ Remarkably, ```focus()``` can function non-parametrically, with no human input. 
 Depending on the size and entropy of the data, ```focus()``` without user-specified parameters could indeed take more than a few moments.  If Clarity does not identify an algorithm likely to correctly extract features, then it will politely suggest that you try to do so.
 
 ##### Parameterization
-We can manually define feature extraction algorithms and parameters that are known to be best for any of our particular cases, either by separately pre-processing the data before inserting into ```clarity.sense()```, or by providing arguments to ```focus()``` (*TBD*).
+We can manually define feature extraction algorithms and parameters that are known to be best for any of our particular cases, either by separately pre-processing the data before inserting into ```clarity.sense()```, or by providing arguments to ```focus()```.  ...
 
 ### Discovering Models
 ...
