@@ -1,8 +1,8 @@
 # Clarity
 Clarity is a library for quickly and intuitively exploring complex data.  Driven by [machine learning](https://en.wikipedia.org/wiki/Machine_learning) it provides simple commands for the following:
-  - **Extracting features from data** - *e.g.* identifying key words in documents
+  - **Extracting features from data** - *e.g.* identifying key words in documents with [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
   - **Discovering models of features** - *e.g.* learning deep representations with [word2vec](http://code.google.com/p/word2vec/)
-  - **Visualizing knowledge in models** - *e.g.* 3D embedding of high-dimensional knowledge
+  - **Visualizing knowledge in models** - *e.g.* 3D embedding of high-dimensional knowledge with [t-SNE](http://lvdmaaten.github.io/tsne/)
 
 Clarity can help speed up the process of scientific discovery, and support visualization of intelligence harvested from data, including for virtual and augmented reality.
 
@@ -40,7 +40,7 @@ Let's see how.  At the top of ```extract_features.py``` we make a list of ```obs
 Under the hood, when Clarity runs ```focus()```, it constructs a sparse normalized *N* x *F* matrix, where *N* is number of observations and *F* is number of features.  Such a matrix is often useful for machine learning in general, and one can extract it by calling ```truth.matrix```.
 
 ##### Non-Parametric Heuristics
-Remarkably, ```focus()``` can function non-parametrically, with no human input.  This is because Clarity probabilistically infers how best to consider and concentrate on any type of data.  For the example above, Clarity will recognize that all data observations are natural language, and then it will extract words from the language, and process them with [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) so it can filter out words that are too frequent.
+Remarkably, ```focus()``` can function non-parametrically, with no human input.  This is because Clarity probabilistically infers how best to consider and concentrate on any type of data.  For the example above, Clarity will recognize that all data observations are natural language, and then it will extract words from the language, and process them with [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) so it can filter out words that are too frequent.
 
 Depending on the complexity of the data, ```focus()``` without user-specified parameters could indeed take more than a few moments - possibly minutes to hours.  Further, to avoid undermining its purpose, Clarity will not attempt to execute any algorithm for feature extraction if it does not identify one that is appropriate.
 
