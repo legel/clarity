@@ -6,7 +6,7 @@ Clarity is a library for quickly and intuitively exploring complex data.  Driven
 
 Clarity can help speed up the process of scientific discovery, and visualize artificial intelligence harvested from data, including for virtual and augmented reality.
 
-### Installation
+##### Installation
 ```sh
 $ pip install clarity
 ```
@@ -42,10 +42,10 @@ Under the hood, when Clarity runs ```focus()```, it constructs a sparse normaliz
 ##### Non-Parametric Heuristics
 Remarkably, ```focus()``` can function non-parametrically, with no human input.  This is because Clarity probabilistically infers how best to consider and concentrate on any type of data.  For the example above, Clarity will recognize that all data observations are natural language, and then it will extract words from the language, and process them with [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) so it can filter out words that are too frequent.
 
-Depending on the complexity of the data, ```focus()``` without user-specified parameters could indeed take more than a few moments - possibly minutes to hours.  Further, to avoid undermining its purpose, Clarity will not attempt to execute any algorithm for feature extraction if it does not identify one that is appropriate.
+Depending on the size and entropy of the data, ```focus()``` without user-specified parameters could indeed take more than a few moments.  If Clarity does not identify an algorithm likely to correctly extract features, then it will politely suggest that you try to do so.
 
 ##### Parameterization
-Finally, enlightment engineers can easily specify the feature extraction algorithms and parameters that are known to be best for their case, following documentation for "advanced users".  We encourage anyone with strong domain and/or computational expertise to pursue this approach, since this intuition is still likely to be better than that of our general artificial intelligence.
+We can manually define feature extraction algorithms and parameters that are known to be best for any of our particular cases, either by separately processing pre-processing the data before inserting into ```clarity.sense()```, or by providing arguments to ```focus()```.
 
 ### Discovering Models
 ...
